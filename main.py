@@ -324,10 +324,10 @@ if __name__ == "__main__":
                         # plt.plot(x_ohlc,RSI)
                         # plt.plot(x_ohlc,MACD)
 
-                        file = glob.glob(r"c:\python\virtualenv\coin_env\coin_fig\*.png")
-                        file_count = len(file)
-                        save_dir = "c:/python/virtualenv/coin_env/coin_fig/"
-                        plt.savefig(os.path.join(save_dir, "result{0:04d}.png".format(file_count)))
+                        # file = glob.glob(r"c:\python\virtualenv\coin_env\coin_fig\*.png")
+                        # file_count = len(file)
+                        # save_dir = "c:/python/virtualenv/coin_env/coin_fig/"
+                        # plt.savefig(os.path.join(save_dir, "result{0:04d}.png".format(file_count)))
                         plt.show()
 
                         # plt.plot(range(len(result)),result.cumsum())
